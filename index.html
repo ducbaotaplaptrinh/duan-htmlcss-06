@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- main css -->
+        <link rel="stylesheet" href="./asset/css/main.css" />
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        />
+        <link
+            href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+            rel="stylesheet"
+        />
+        <title>du an 6</title>
+    </head>
+    <body style="height: 5000px">
+        <!-------------- Header -------------->
+        <section class="header">
+            <div class="container-1330 container">
+                <div class="header__inner">
+                    <label for="show-drawer" class="dn show-mobile-tablet">
+                        <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="34"
+                            height="34"
+                            viewBox="0 0 34 34"
+                            fill="none"
+                        >
+                            <circle
+                                opacity="0.2"
+                                cx="17"
+                                cy="17"
+                                r="16"
+                                stroke="#5D3BEE"
+                            />
+                            <path
+                                d="M10 20H25"
+                                stroke="#5D3BEE"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                            <path
+                                d="M10 14H25"
+                                stroke="#5D3BEE"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                            />
+                        </svg>
+                    </label>
+                    <div class="group-header">
+                        <div class="parent-icon">
+                            <img
+                                src="./asset/img/icon-mail.png"
+                                alt=""
+                                class="icon-mail"
+                            />
+                        </div>
+                        <a href="mailto:hi@arif.interactive" class="mail-link"
+                            >hi@arif.interactive</a
+                        >
+                    </div>
+                    <img src="./asset/img/logo.png" alt="" class="icon-logo" />
+                    <nav class="navbar">
+                        <ul class="header-list">
+                            <li class="header-item">
+                                <a href="#!" class="item-link">Projects</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#!" class="item-link">Journey</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#!" class="item-link">Service</a>
+                            </li>
+                            <li class="header-item">
+                                <a href="#!" class="item-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <input
+            class="show-drawer"
+            type="checkbox"
+            name="show-drawer"
+            id="show-drawer"
+            hidden
+        />
+        <label class="overlay" for="show-drawer"></label>
+        <section class="drawer dn">
+            <img src="./asset/img/logo.png" alt="" class="icon-logo" />
+
+            <label class="label-drawer" for="show-drawer"
+                ><svg
+                    class="icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 640"
+                >
+                    <!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.-->
+                    <path
+                        fill="#fff"
+                        d="M183.1 137.4C170.6 124.9 150.3 124.9 137.8 137.4C125.3 149.9 125.3 170.2 137.8 182.7L275.2 320L137.9 457.4C125.4 469.9 125.4 490.2 137.9 502.7C150.4 515.2 170.7 515.2 183.2 502.7L320.5 365.3L457.9 502.6C470.4 515.1 490.7 515.1 503.2 502.6C515.7 490.1 515.7 469.8 503.2 457.3L365.8 320L503.1 182.6C515.6 170.1 515.6 149.8 503.1 137.3C490.6 124.8 470.3 124.8 457.8 137.3L320.5 274.7L183.1 137.4z"
+                    /></svg
+            ></label>
+            <nav class="navbar">
+                <ul class="header-list">
+                    <li class="header-item">
+                        <a href="#!" class="item-link">Projects</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#!" class="item-link">Journey</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#!" class="item-link">Service</a>
+                    </li>
+                    <li class="header-item">
+                        <a href="#!" class="item-link">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+        <main>
+            <!-- --------------hero-------------- -->
+            <section class="hero">
+                <div class="container">
+                    <div class="hero__inner">
+                        <figure class="hero-left" data-aos="fade-right">
+                            <img
+                                src="./asset/img/hero-img.png"
+                                alt=""
+                                class="hero-img"
+                            />
+                        </figure>
+                        <div class="hero-right" data-aos="fade-left">
+                            <h1 class="title">An Interactive Designer</h1>
+                            <p class="desc">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In urna, non nisl tincidunt ut
+                                elementum turpis.
+                            </p>
+                            <div class="hero-group">
+                                <a href="#!" class="hero-group__link btn"
+                                    >Book a Call</a
+                                >
+                                <a href="#!" class="hero-group__link"
+                                    >My Works</a
+                                >
+                            </div>
+                            <div class="hero-group hero-info">
+                                <h3 class="hero-info__title">Follow me on:</h3>
+                                <img
+                                    src="./asset/img/hero-icon.png"
+                                    alt=""
+                                    class="hero-info__icon"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Trusted -->
+            <section class="trusted">
+                <div class="container">
+                    <div class="trusted__inner">
+                        <h1 class="title" data-aos="zoom-in">
+                            Meet my recent clients
+                        </h1>
+                        <div class="trusted__group">
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-gg.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Google</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-warner.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Warner Bros</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-mailchamp.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Mailchimp</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-adobe.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Adobe</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-upwork.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">UpWork</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-cloud.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Creative Cloud</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-woo.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Woocommerce</h3>
+                            </div>
+                            <div
+                                class="trusted__group--child"
+                                data-aos="zoom-in"
+                            >
+                                <img
+                                    src="./asset/img/icon-canva.png"
+                                    alt=""
+                                    class="logo"
+                                />
+                                <h3 class="group-title">Canva</h3>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Service -->
+            <section class="service">
+                <div class="container">
+                    <div class="service__inner">
+                        <h1 class="title" data-aos="zoom-in">Specialities</h1>
+                        <p class="desc" data-aos="zoom-in">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <div class="service-list row row-cols-md-3 row-cols-1">
+                            <div class="service-card col" data-aos="flip-left">
+                                <div class="card-icon">
+                                    <img
+                                        src="./asset/icon/icon-product.png"
+                                        alt="icon"
+                                        class="icon"
+                                    />
+                                </div>
+                                <h3 class="card-title title">Product design</h3>
+                                <p class="card-desc desc">
+                                    Lorem ipsum dolor sit amet, solor adipiscing
+                                    elit. Non nisl solor ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="service-card col" data-aos="flip-left">
+                                <div class="card-icon">
+                                    <img
+                                        src="./asset/icon/icon-design.png"
+                                        alt="icon"
+                                        class="icon"
+                                    />
+                                </div>
+                                <h3 class="card-title title">UI/UX Design</h3>
+                                <p class="card-desc desc">
+                                    Lorem ipsum dolor sit amet, solor adipiscing
+                                    elit. Non nisl solor ut elementum turpis.
+                                </p>
+                            </div>
+                            <div class="service-card col" data-aos="flip-left">
+                                <div class="card-icon">
+                                    <img
+                                        src="./asset/icon/icon-phone.png"
+                                        alt="icon"
+                                        class="icon"
+                                    />
+                                </div>
+                                <h3 class="card-title title">
+                                    Interactive design
+                                </h3>
+                                <p class="card-desc desc">
+                                    Lorem ipsum dolor sit amet, solor adipiscing
+                                    elit. Non nisl solor ut elementum turpis.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="arrow-group">
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-1"
+                                    type="radio"
+                                    name="next"
+                                    id="service__next-1"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="service__next-1"
+                                ></label>
+                            </div>
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-2"
+                                    type="radio"
+                                    name="next"
+                                    id="service__next-2"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="service__next-2"
+                                ></label>
+                            </div>
+
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-3"
+                                    type="radio"
+                                    name="next"
+                                    id="service__next-3"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="service__next-3"
+                                ></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Works -->
+            <section class="works">
+                <div class="container">
+                    <div class="works__inner">
+                        <div class="work-on">
+                            <h2 class="work-on--title title">
+                                Take a look at my recent projects
+                            </h2>
+                            <p class="work-on--desc desc">
+                                Lorem ipsum dolor sit amet, consectetur
+                                adipiscing elit. In urna, non nisl tincidunt ut
+                                elementum turpis.
+                            </p>
+                        </div>
+                        <div class="work-bottom">
+                            <div
+                                class="work-bottom--list row row-cols-md-2 row-cols-1"
+                            >
+                                <div class="col">
+                                    <div
+                                        class="work-bottom--card"
+                                        data-aos="flip-up"
+                                    >
+                                        <div class="card-info">
+                                            <h3 class="card-title title">
+                                                Wally Website
+                                            </h3>
+                                            <p class="card-desc desc">
+                                                Lorem ipsum dolor amet,
+                                                consectetur adipiscing st elit.
+                                            </p>
+                                            <a href="#!" class="card-link"
+                                                >Case Study</a
+                                            >
+                                        </div>
+                                        <div class="card-img">
+                                            <img
+                                                src="./asset/img/works-card-img-1.png"
+                                                alt=""
+                                                class="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div
+                                        class="work-bottom--card"
+                                        data-aos="flip-up"
+                                    >
+                                        <div class="card-info">
+                                            <h3 class="card-title title">
+                                                Wally Website
+                                            </h3>
+                                            <p class="card-desc desc">
+                                                Lorem ipsum dolor amet,
+                                                consectetur adipiscing st elit.
+                                            </p>
+                                            <a href="#!" class="card-link"
+                                                >Case Study</a
+                                            >
+                                        </div>
+                                        <div class="card-img">
+                                            <img
+                                                src="./asset/img/works-card-img-1.png"
+                                                alt=""
+                                                class="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div
+                                        class="work-bottom--card"
+                                        data-aos="flip-up"
+                                    >
+                                        <div class="card-info">
+                                            <h3 class="card-title title">
+                                                Wally Website
+                                            </h3>
+                                            <p class="card-desc desc">
+                                                Lorem ipsum dolor amet,
+                                                consectetur adipiscing st elit.
+                                            </p>
+                                            <a href="#!" class="card-link"
+                                                >Case Study</a
+                                            >
+                                        </div>
+                                        <div class="card-img">
+                                            <img
+                                                src="./asset/img/works-card-img-1.png"
+                                                alt=""
+                                                class="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div
+                                        class="work-bottom--card"
+                                        data-aos="flip-up"
+                                    >
+                                        <div class="card-info">
+                                            <h3 class="card-title title">
+                                                Wally Website
+                                            </h3>
+                                            <p class="card-desc desc">
+                                                Lorem ipsum dolor amet,
+                                                consectetur adipiscing st elit.
+                                            </p>
+                                            <a href="#!" class="card-link"
+                                                >Case Study</a
+                                            >
+                                        </div>
+                                        <div class="card-img">
+                                            <img
+                                                src="./asset/img/works-card-img-1.png"
+                                                alt=""
+                                                class="img"
+                                            />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#!" class="btn works-btn">ALL Projects</a>
+                    </div>
+                </div>
+            </section>
+            <!-- About -->
+            <section class="about">
+                <div class="container">
+                    <div class="about__inner">
+                        <div class="about-group">
+                            <h4 class="title">Hey,,,,It’s Arif</h4>
+                            <img
+                                src="./asset/icon/icon-hi.svg"
+                                alt=""
+                                class="icon"
+                            />
+                        </div>
+                        <h2 class="title">Interactive Designer</h2>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <div class="about-group">
+                            <div class="about-group--item">
+                                <h3 class="about-group--value">08+</h3>
+                                <p class="about-group--desc desc">
+                                    Years Experience
+                                </p>
+                            </div>
+                            <div class="about-group--item">
+                                <h3 class="about-group--value">21+</h3>
+                                <p class="about-group--desc desc">
+                                    Features & Awards
+                                </p>
+                            </div>
+                            <div class="about-group--item">
+                                <h3 class="about-group--value">97%</h3>
+                                <p class="about-group--desc desc">
+                                    Clients Rating
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about-video">
+                            <img
+                                src="./asset/img/img-video.jpg"
+                                alt=""
+                                class="video"
+                            />
+                            <div class="action-group">
+                                <i
+                                    class="action-group--play fa-solid fa-play"
+                                ></i>
+                            </div>
+                            <span class="about-video--tag">Intro Video</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Testimonial -->
+            <section class="testimonial">
+                <div class="container">
+                    <div class="testimonial__inner">
+                        <h2 class="title">What people says</h2>
+                        <p class="desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <div class="testimonial-group">
+                            <div class="testimonial-group--item">
+                                <p class="desc">
+                                    “Duis aute irure dolor in reprehenderit in
+                                    voluptate velit esse cillum dolore eu fugiat
+                                    nulla pariatur. Excepteur sint occaecat
+                                    cupidatat non proident, sunt in culpa.”
+                                </p>
+                                <div class="info-group">
+                                    <div class="group-name">
+                                        <div class="frame-avt">
+                                            <img
+                                                src="./asset/img/avt-testimonial-1.png"
+                                                alt="avarta"
+                                                class="avt"
+                                            />
+                                        </div>
+                                        <h4 class="info-group--title">
+                                            Joe Elia
+                                        </h4>
+                                    </div>
+                                    <span class="info-group--info"
+                                        >User Interface Design at PCL Lab</span
+                                    >
+                                </div>
+                            </div>
+                        </div>
+                        <div class="arrow-group">
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-1"
+                                    type="radio"
+                                    name="next"
+                                    id="arrow__next-1"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="arrow__next-1"
+                                ></label>
+                            </div>
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-2"
+                                    type="radio"
+                                    name="next"
+                                    id="arrow__next-2"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="arrow__next-2"
+                                ></label>
+                            </div>
+
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-3"
+                                    type="radio"
+                                    name="next"
+                                    id="arrow__next-3"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="arrow__next-3"
+                                ></label>
+                            </div>
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-4"
+                                    type="radio"
+                                    name="next"
+                                    id="arrow__next-4"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="arrow__next-4"
+                                ></label>
+                            </div>
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-5"
+                                    type="radio"
+                                    name="next"
+                                    id="arrow__next-5"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="arrow__next-5"
+                                ></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Faq -->
+            <section class="faq">
+                <div class="container">
+                    <div class="faq__inner">
+                        <h2 class="faq_title title">
+                            A few questions clients normally ask me
+                        </h2>
+                        <div class="faq-group">
+                            <div class="faq-item">
+                                <input
+                                    type="checkbox"
+                                    name="show"
+                                    id="show"
+                                    hidden
+                                />
+                                <label class="show" for="show"></label>
+
+                                <h3 class="question title">
+                                    What is your hourly rate?
+                                </h3>
+                                <p class="desc reply">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="faq-item__before"></div>
+                            </div>
+                            <div class="faq-item">
+                                <input
+                                    type="checkbox"
+                                    name="show"
+                                    id="show-1"
+                                    hidden
+                                />
+                                <label class="show" for="show-1"></label>
+
+                                <h3 class="question title">
+                                    What type of projects do you take on?
+                                </h3>
+                                <p class="desc reply">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="faq-item__before"></div>
+                            </div>
+                            <div class="faq-item">
+                                <input
+                                    type="checkbox"
+                                    name="show"
+                                    id="show-2"
+                                    hidden
+                                />
+                                <label class="show" for="show-2"></label>
+
+                                <h3 class="question title">
+                                    What time-zone do you work in?
+                                </h3>
+                                <p class="desc reply">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="faq-item__before"></div>
+                            </div>
+                            <div class="faq-item">
+                                <input
+                                    type="checkbox"
+                                    name="show"
+                                    id="show-3"
+                                    hidden
+                                />
+                                <label class="show" for="show-3"></label>
+
+                                <h3 class="question title">
+                                    How do you charge for projects ?
+                                </h3>
+                                <p class="desc reply">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="faq-item__before"></div>
+                            </div>
+                            <div class="faq-item">
+                                <input
+                                    type="checkbox"
+                                    name="show"
+                                    id="show-4"
+                                    hidden
+                                />
+                                <label class="show" for="show-4"></label>
+
+                                <h3 class="question title">
+                                    How often can we communicate?
+                                </h3>
+                                <p class="desc reply">
+                                    Lorem ipsum dolor sit amet, consectetur
+                                    adipiscing elit. In urna, non nisl tincidunt
+                                    ut elementum turpis.
+                                </p>
+                                <div class="faq-item__before"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Gallery -->
+            <section class="gallery">
+                <div class="container">
+                    <div class="gallery__inner">
+                        <h2 class="gallery-title title">My atmosphere</h2>
+                        <p class="gallery-desc desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <a href="#!" class="gallery-link">@interaction_arif</a>
+                        <div class="gallery-list row row-cols-md-3 row-cols-1">
+                            <div class="col">
+                                <div
+                                    class="gallery-card"
+                                    data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center"
+                                >
+                                    <img
+                                        src="./asset/img/gallery-img-1.jpg"
+                                        alt=""
+                                        class="gallery-img"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div
+                                    class="gallery-card"
+                                    data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center"
+                                >
+                                    <img
+                                        src="./asset/img/gallery-img-2.jpg"
+                                        alt=""
+                                        class="gallery-img"
+                                    />
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div
+                                    class="gallery-card"
+                                    data-aos="fade-up"
+                                    data-aos-anchor-placement="top-center"
+                                >
+                                    <img
+                                        src="./asset/img/gallery-img-3.jpg"
+                                        alt=""
+                                        class="gallery-img"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dn arrow-group">
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-1"
+                                    type="radio"
+                                    name="next"
+                                    id="gallery__next-1"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="gallery__next-1"
+                                ></label>
+                            </div>
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-2"
+                                    type="radio"
+                                    name="next"
+                                    id="gallery__next-2"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="gallery__next-2"
+                                ></label>
+                            </div>
+
+                            <div class="arrow-item">
+                                <input
+                                    class="arrow__next arrow__next-3"
+                                    type="radio"
+                                    name="next"
+                                    id="gallery__next-3"
+                                    hidden
+                                />
+                                <label
+                                    class="label"
+                                    for="gallery__next-3"
+                                ></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- CTA -->
+            <section class="cta">
+                <div class="container-1330 container">
+                    <div class="cta__inner">
+                        <span class="cta-icon"></span>
+                        <h2 class="cta-title title">
+                            Got a project? Let’s talk
+                        </h2>
+                        <p class="cts-desc desc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing
+                            elit. In urna, non nisl tincidunt ut elementum
+                            turpis.
+                        </p>
+                        <a href="#!" class="cta-btn btn">Book a Call</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- Footer -->
+        <section class="footer">
+            <div class="container-1330 container">
+                <div class="footer__inner">
+                    <div class="footer-group">
+                        <div class="parent-icon">
+                            <img
+                                src="./asset/img/icon-mail.png"
+                                alt=""
+                                class="icon-mail"
+                            />
+                        </div>
+                        <a href="mailto:hi@arif.interactive" class="mail-link"
+                            >hi@arif.interactive</a
+                        >
+                    </div>
+                    <img src="./asset/img/logo.png" alt="" class="icon-logo" />
+                    <nav class="navbar">
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="#!" class="item-link">Projects</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#!" class="item-link">Journey</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#!" class="item-link">Service</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="#!" class="item-link">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="container">
+                    <div class="footer-group group-link">
+                        <a href="#!" class="copyright desc"
+                            >©interactiveArif 2021. All rights reserved.</a
+                        >
+                        <div class="group-link">
+                            <a href="#!" class="desc"> Privacy Policy </a>
+                            <a href="#!" class="desc"> Terms of Conditions </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
