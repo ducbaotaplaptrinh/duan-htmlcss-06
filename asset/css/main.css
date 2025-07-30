@@ -1873,6 +1873,9 @@ input:-webkit-autofill {
     transition: all 0.3s;
     z-index: 100;
   }
+  .drawer .navbar {
+    max-width: 100%;
+  }
   .drawer .item-link {
     display: block;
     color: #fff;
