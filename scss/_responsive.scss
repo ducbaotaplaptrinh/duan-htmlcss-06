@@ -34,11 +34,12 @@
         height: auto;
         display: block;
         padding: 35px;
-        background: rgb(0, 0, 0, 0.7);
+        background: rgb(0, 0, 0, 0.5);
         backdrop-filter: blur(20px);
         border-bottom: 1px solid #ccc;
         transform: translateY(-100%);
         transition: all 0.3s;
+        z-index: 100;
         .item-link {
             display: block;
             color: #fff;
@@ -92,6 +93,7 @@
         background: rgb(0, 0, 0, 0.5);
         backdrop-filter: blur(20px);
         transition: all 0.3s;
+        z-index: 100;
     }
     .hero__inner .title {
         font-size: 4.2rem !important;
